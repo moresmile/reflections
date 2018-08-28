@@ -126,8 +126,25 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    If I made more then one changing after commiting, I can see all my logical change in 
+    Working directory and Staging area, with command: 
+    git diff
+    
+    git diff --staging    # see all diference between Repository and Staging area
+    
+    But, if is staging area some unneeded file, I can remove it from staging area(like Undo):
+    git reset --hard
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+    When I want to work on my own experimental(exp) version of file(s) I will make a new branch,
+    and master version will be still stable.
+    This can help, in case I'm working with another developer, and thay can trust master is not changed,
+    but there are also another version.
+    Making new branch, can help to switch between many different working versions, in case there are not 
+    too many, and I can keep track on all.
 
 How do the diagrams help you visualize the branch structure?
 
