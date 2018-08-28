@@ -1,0 +1,61 @@
+How to setup your workspace?
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+	
+	subl - is actually text editor, called Sublime Text 2
+
+    There is lot of research of reflection:
+    https://sites.google.com/site/reflection4learning/why-reflect
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	fc file1 file2 
+    If I can seen both files, that allow me to see and spot differnces quickly.
+    If I have to look both files(and not separatly openning first and second file), that lead to less mistakes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I made some mistake, and my codes are not working properly, I can go to previous version(s), compare and easily find fix it.
+    It save a time. I don't need to examine 1000's of code lines.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+    Manualy choosing to create a commit make sense for the users.
+    It would not be save in a middle of working process with no guaranty forworking code.
+    With manualy commit, I can manually tag each change in commit and give properly name for this version.
+    After all, with given names it will be possible to understand what changes are made. 
+
+    With autosaved versions, it can be difficult to understand what changes are introduced in each version.
+    Some autosaved will note make sence for users.
+    
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    When the files are correlative, it will make sense to put it together. And changing of every multiply files will be useful.
+    If on another side, every file is treated separatly, there will be no sence in some large coding project.
+    Example which makes sense totrace together multiple files:
+    - webpage with html and css files
+    - a novel, split ba chapter 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log --stat      # to see place for adding, or removing in code 
+    git diff            # 1-st we will see what files was changed
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
