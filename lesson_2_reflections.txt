@@ -147,6 +147,19 @@ organized? How would branches help?
     too many, and I can keep track on all.
 
 How do the diagrams help you visualize the branch structure?
+    
+    The diagrams show me all parents of commits. 
+    With diagrams, if there any branch, I can easyly see which part will be changed with commit,
+    And diagrams let me see all referenced commits, which part reference on which branch.
+
+    1) make actual branch(as working): git checkout coins
+    2) git log --graph --oneline master coins
+
+    =======================================
+    Detached 'HEAD' revisited
+    1) checkout commit !! : git checkout commit_ID
+    2) git branch new-branch-name
+    3) git checkout (-b) new-branch-name
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
