@@ -164,5 +164,16 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    The result of merging two branches togethe is a combination of commit with all the 
+    changes from all(two) branches.
+    git merge master coins
+    git merge branch2 branch3
+    ---- or -----
+    git checkout branch3
+    git checkout
+
+    We represent in the diagram with parents, and with two commits that is combined.
+    For non-merged commit, the parent is in the beginnig state of the files before the commit was made
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
